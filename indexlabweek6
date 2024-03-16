@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Indexlab</title>
+</head>
+<body>
+    <input type="text" id="txta">
+    <input type="text" id="txtb">
+    <button onclick="tongab()">
+        Tính tổng
+    </button>
+</body>
+<script>
+    function tongab() {
+        var txta = document.getElementById('txta'). value;
+        var txtb = document.getElementById('txtb'). value;
+        alert(parseInt(txta) + parseInt(txtb));
+    }
+</script>
+</html>
